@@ -11,4 +11,4 @@ export default {
   name: "App",
 };
 </script>
-//app componet calling test.vue component
+//app componet calling test.vue component or nested component
