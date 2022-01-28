@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Hello to the vue tutorial</h1>
-    <Test />
+    <h1>Hello to the vue tutorial {{ name }}</h1>
+    <Test name="myohtet"> This is slot </Test>
   </div>
 </template>
 <script>
@@ -11,4 +11,8 @@ export default {
   name: "App",
 };
 </script>
-//app componet calling test.vue component or nested component
+//app componet calling test.vue component or nested component //slot and props
+is used data carry to one component to another component //props is inside of
+<Test></Test>
+
+//slot is used in is eg This is slot
